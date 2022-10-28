@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 16px;
+    margin: 12px;
+    border: 2px solid purple;
+    background-color: thistle;
+    display: flex;
+    flex-flow: column wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+}
+
+
+.item{
+    width: 96px;
+    height: 96px;
+    padding: 12px;
+    background-color: cornflowerblue;
+    border: 2px solid white;
+    margin-bottom: 12px;
+    margin-right: 12px;
+}
