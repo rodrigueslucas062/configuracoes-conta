@@ -1,9 +1,17 @@
 body {
+  width: 100%;
+  height: 100vh;
   font-family: 'Poppins', sans-serif;
+  background-color: #E1E1F3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.bodyy {
-  display: flex;
+.painel {
+  width: 90%;
+  height: 90%;
+  background-color: white;
 }
 
 header {

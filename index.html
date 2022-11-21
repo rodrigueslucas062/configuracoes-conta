@@ -11,69 +11,68 @@
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  <header>
-    <div>
-      <!---IMAGEM UI-->
-      <p>Design Daily</p>
-    </div>
-    <nav class="header_nav">
-      <p class="nav_item">Free designs</p>
-      <p class="nav_item">Articles</p>
-      <p class="nav_item">Contributors</p>
-      <p class="nav_item">About</p>
-    </nav>
-    <div>
-      <!--Notificação-->
-      <!--Imagem-->
-      <button class="header_botton">
-        <!--Upload-->
-        Upload</button>
-    </div>
-  </header>
+  <div class="painel">
+    <div class="nav">
+      <header>
+        <div>
+          <p>Design Daily</p>
+        </div>
+        <nav class="header_nav">
+          <p class="nav_item">Free designs</p>
+          <p class="nav_item">Articles</p>
+          <p class="nav_item">Contributors</p>
+          <p class="nav_item">About</p>
+        </nav>
+        <div>
+          <button class="header_botton">
+            Upload</button>
+        </div>
+      </header> 
+    </div> 
+      <aside>
+        <h2 id="settings_text">Settings</h2>
+        <p class="link_aside">Public profile</p>
+        <p class="link_aside">Account settings</p>
+        <p class="link_aside">Notifications</p>
+        <p class="link_aside">PRO Account</p>
+      </aside>
 
-  <div class="bodyy">
-
-    <aside>
-      <h2 id="settings_text">Settings</h2>
-      <p class="link_aside">Public profile</p>
-      <p class="link_aside">Account settings</p>
-      <p class="link_aside">Notifications</p>
-      <p class="link_aside">PRO Account</p>
-    </aside>
-    <section class="main_section">
-      <h2 id="account_settings_text">Account settings</h2>
-      <div class="email">
-        <h3>Email address</h3>
-        <div class="email_change">
-          <p>Your email address is <strong>emailis@private.com</strong></p>
-          <a id="change_email_link" href="/change_email">Change</a>
-        </div>
-      </div>
-  
-      <div id="password">
-        <div class="password_hide">
-          <h3>Password</h3>
-          <a class="hide_link" href="/hide">Hide</a>
-        </div>
-  
-        <div id="password_inputs">
-          <label for="new_password" class="input_password">New password
-            <input type="password" name="new_password" id="new_password" placeholder="******">
-          </label>
-          <label for="current_password" class="current_password">Current password
-            <input type="password" name="current_password" id="current_password" placeholder="******">
-          </label>
-        </div>
-        <p>Can't remember your current password? <a href="/resetpassword">Reset your password</a></p>
-        <button class="save_password">Save password</button>
-        <section class="delete_account">
-          <h3>Delete account</h3>
-          <p class="text_delete">Would you like to delete your account?</p>
-          <p class="text_delete" id="text_delete_2">This account contains 1388 posts. Deleting your account will remove all the content associated with it</p>
-          <a class="delete_account_link" href="/delete">I want to delete my account</a>
+      <div class="content">
+        <section class="main_section">
+          <h2 id="account_settings_text">Account settings</h2>
+          <div class="email">
+            <h3>Email address</h3>
+            <div class="email_change">
+              <p>Your email address is <strong>emailis@private.com</strong></p>
+              <a id="change_email_link" href="/change_email">Change</a>
+            </div>
+          </div>
+      
+          <div id="password">
+            <div class="password_hide">
+              <h3>Password</h3>
+              <a class="hide_link" href="/hide">Hide</a>
+            </div>
+      
+            <div id="password_inputs">
+              <label for="new_password" class="input_password">New password
+                <input type="password" name="new_password" id="new_password" placeholder="******">
+              </label>
+              <label for="current_password" class="current_password">Current password
+                <input type="password" name="current_password" id="current_password" placeholder="******">
+              </label>
+            </div>
+            <p>Can't remember your current password? <a href="/resetpassword">Reset your password</a></p>
+            <button class="save_password">Save password</button>
+            <section class="delete_account">
+              <h3>Delete account</h3>
+              <p class="text_delete">Would you like to delete your account?</p>
+              <p class="text_delete" id="text_delete_2">This account contains 1388 posts. Deleting your account will remove all the content associated with it</p>
+              <a class="delete_account_link" href="/delete">I want to delete my account</a>
+            </section>
+          </div>
         </section>
-      </div>
-    </section>
+    </div>
   </div>
 </body>
 </html>
