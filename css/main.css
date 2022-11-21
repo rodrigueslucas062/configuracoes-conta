@@ -1,30 +1,143 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
-.container {
-    width: 100%;
-    padding: 16px;
-    margin: 12px;
-    border: 2px solid purple;
-    background-color: thistle;
-    display: flex;
-    flex-flow: column wrap;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    justify-content: space-evenly;
-
+.bodyy {
+  display: flex;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #242E4C;
+  width: 100%;
+  margin-left: 50px;
+}
 
-.item{
-    width: 96px;
-    height: 96px;
-    padding: 12px;
-    background-color: cornflowerblue;
-    border: 2px solid white;
-    margin-bottom: 12px;
-    margin-right: 12px;
+.header_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav_item {
+  margin: 10px;
+  padding: 10px, 15px, 10px, 15px;
+  font-size: 16px;
+  font-weight: 500;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+#settings_text {
+  margin-bottom: 50px;
+  font-weight: 900;
+  font-size: 32px;
+  color: #202142;
+}
+
+.link_aside {
+  margin-bottom: 25px;
+  padding: 10px, 15px, 10px, 15px;
+}
+
+aside {
+  margin-left: 210px;
+  margin-top: 96px;
+  width: 167px;
+  height: 221px;
+  margin-right: 0px;
+}
+
+.header_botton {
+  background-color: #202142;
+  color: white;
+  padding: 15px, 30px, 15px, 30px;
+  width: 152px;
+  height: 54px;
+  margin-right: 76px;
+  font-family: 'Poppins', sans-serif;;
+}
+
+.main_section {
+  margin-left: 300px;
+  margin-top: 150px;
+  width: 610px;
+}
+
+#account_settings_text {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.email_change {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#change_email_link {
+  margin-top: 16px;
+}
+
+.password_hide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.hide_link {
+  margin-top: 16px;
+}
+
+.input_password, .current_password {
+  display: flex;
+  flex-direction: column;
+  width: 287px;
+  height: 106px;
+}
+
+input {
+  margin-top: 6px;
+  height: 74px;
+  border-radius: 10px;
+  border: 1px solid #C3C3E4;
+  padding: 30px;
+}
+
+#password_inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.save_password {
+  margin-top: 30px;
+  height: 54px;
+  width: 183px;
+  background-color: #202142;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+.delete_account {
+  height: 200px;
+  margin-top: 60px;
+  padding-right: 90px;
+}
+
+.text_delete {
+  font-size: 18px;
+  margin: 0;
+}
+
+#text_delete_2 {
+  margin-bottom: 30px;
+}
+
+.delete_account_link {
+  color: #EE4878;
 }
